@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="<%= appName %>">
+<head>
+	<title><%= title %></title>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/angular.js"></script>
+	<script type="text/javascript" src="<%= angularFileName %>"></script>
+	
+</head>
+<body>
+<hr />
+<hr />
+<div class="container" style="min-height: 600px; height: auto;">
+	<%- include(pagename); %>
+</div>
+</body>
+</html>
